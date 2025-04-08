@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Celtec Contact Page</title>
+<link href="CTstyles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<div id="page">
+
+<body>
+
+<center><img src="images/banner_02.png" alt="Image of the Celtec Banner" style="width:1000px;height:300px"</center>
+<center><h1>Celtec Contact Information</h1></center> 
+
+<center>
+<nav>
+<a href="index.htm">Homepage</a>
+<a href="aboutus.htm">About Us</a>
+<a href="blog.htm">Celtec Blog</a>
+<a href="product.htm">Products</a>
+<a href="contact.htm">Contact Information</a>
+</nav>
+</center>
+
+<br>
+<hr>
+
+<main>
+
+<h3 style="position: absolute; right:1000px; bottom:-100px">
+If you wish to hear more from the Celtec team<br>
+then you can put your email into the form above!<br>
+<br>
+From this you could hear about new games, release<br>
+dates, Celtec products or anything similar<br>
+
+</h3>
+
+</main>
+
+<div = "form">
+
+<br>
+
+<form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+<fieldset>
+<label for="name">Full Name:</label><br>
+<input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+<label for="email">Email Address:</label><br>
+<input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+<label for="comments">Your Message:</label><br>
+<textarea id="comments" name="comments" rows="4" cols="30" placeholder="Write your message here..." required></textarea><br><br>
+<center><input type="checkbox" id="terms" onchange="toggleSubmit()" required> </center>
+<label for="terms" style="color:red; font-weight: bold;">Check the box above to agree to the terms and conditions</label><br><br>
+<button type="submit" id="submitBtn" disabled>Send Message</button>
+</fieldset>
+</form>
+
+<script>
+    function toggleSubmit() {
+        document.getElementById("submitBtn").disabled = !document.getElementById("terms").checked;
+    }
+</script>
+
+</div>
+
+<img src="images/contact.png" alt="Image of People Gaming" style="position: absolute; right:450px;width:500px;height:350px;bottom:-250px;">
+
+</body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+</div>
+
+</html>
